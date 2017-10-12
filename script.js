@@ -9,5 +9,11 @@ $(document).ready(function() {
         }
     }
 
+    function displayForm() {
+        
+    }
+
     $(document).on("click", ".title", checkActive);
+    $(document).on("click", ".add-btn", displayForm);
+    
 });

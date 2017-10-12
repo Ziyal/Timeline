@@ -11,6 +11,16 @@ body {
     align-items: center;
 }
 
+h1 {
+    margin: 25px 0px 5px 0px;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 5px 0px 20px 0px;
+}
+
 .timeline-container {
     width: 70%;
     /*background-color: white;*/
@@ -40,6 +50,8 @@ li {
 }
 
 .date {
+    width: 125px;
+    text-align: right;
     font-style: italic;
     position: absolute;
     margin: 0px 0px 0px -190px;
@@ -52,18 +64,35 @@ li {
 }
 
 .content {
-    display: none;
-    transition: opacity .25s ease-in-out;
+    
 }
 
-.content .active {
+/*.content .active {
     opacity: 0.5;
 }
 
 .active {
     display: block;
-}
+}*/
 
 .content-text {
     margin: 5px 0px 0px 0px;
+}
+
+/* --------- Add Event ---------- */
+.add-btn {
+    width: 50%;
+    height: 30px;
+    text-align: center;
+    background-color: white;
+    color: #4672b2;
+    cursor: pointer;
+}
+
+.add-btn .add-btn-text {
+    margin: 10px 0px 0px 0px;
+}
+
+.add-container {
+    display: none;
 }
